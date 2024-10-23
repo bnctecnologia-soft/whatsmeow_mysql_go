@@ -9,10 +9,10 @@ package whatsmeow
 import (
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/store"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
 )
 
 func (cli *Client) handleStreamError(node *waBinary.Node) {

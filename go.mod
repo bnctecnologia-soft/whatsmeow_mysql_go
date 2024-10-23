@@ -1,4 +1,4 @@
-module go.mau.fi/whatsmeow
+module github.com/bnctecnologia-soft/whatsmeow_mysql_go
 
 go 1.22.0
 

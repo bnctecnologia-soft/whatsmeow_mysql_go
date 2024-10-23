@@ -13,12 +13,12 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/appstate"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/store"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
 )
 
 // FetchAppState fetches updates to the given type of app state. If fullSync is true, the current

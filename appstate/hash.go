@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"hash"
 
-	"go.mau.fi/whatsmeow/appstate/lthash"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/appstate/lthash"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_gologia-soft/whatsmeow_mysql_go/binary/proto"
 )
 
 type Mutation struct {

@@ -9,9 +9,9 @@ package events
 import (
 	"time"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/appstate"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
 )
 
 // Contact is emitted when an entry in the user's contact list is modified from another device.

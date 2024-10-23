@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/store"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
 )
 
 // ErrInvalidLength is returned by some database getters if the database returned a byte array with an unexpected length.

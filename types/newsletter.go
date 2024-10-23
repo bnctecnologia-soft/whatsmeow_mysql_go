@@ -13,7 +13,7 @@ import (
 
 	"go.mau.fi/util/jsontime"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
 )
 
 type NewsletterVerificationState string

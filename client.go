@@ -23,17 +23,17 @@ import (
 	"go.mau.fi/util/random"
 	"golang.org/x/net/proxy"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/proto/waE2E"
-	"go.mau.fi/whatsmeow/proto/waWeb"
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/appstate"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waE2E"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waWeb"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/socket"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/store"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
+	waLog "github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/log"
 )
 
 // EventHandler is a function that can handle events from WhatsApp.

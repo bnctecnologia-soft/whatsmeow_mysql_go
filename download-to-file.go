@@ -20,8 +20,8 @@ import (
 	"go.mau.fi/util/fallocate"
 	"go.mau.fi/util/retryafter"
 
-	"go.mau.fi/whatsmeow/proto/waMediaTransport"
-	"go.mau.fi/whatsmeow/util/cbcutil"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waMediaTransport"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/cbcutil"
 )
 
 type File interface {

@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/store"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/socket"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/store"
 )
 
 var clientVersionRegex = regexp.MustCompile(`"client_revision":(\d+),`)

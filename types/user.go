@@ -9,7 +9,7 @@ package types
 import (
 	"time"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
 )
 
 // VerifiedName contains verified WhatsApp business details.

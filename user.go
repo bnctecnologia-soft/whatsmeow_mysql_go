@@ -14,10 +14,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
 )
 
 const BusinessMessageLinkPrefix = "https://wa.me/message/"

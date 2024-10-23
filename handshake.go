@@ -14,9 +14,9 @@ import (
 	"go.mau.fi/libsignal/ecc"
 	"google.golang.org/protobuf/proto"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/socket"
-	"go.mau.fi/whatsmeow/util/keys"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/socket"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
 )
 
 const NoiseHandshakeResponseTimeout = 20 * time.Second

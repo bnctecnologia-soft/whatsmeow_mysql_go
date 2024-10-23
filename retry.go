@@ -20,14 +20,14 @@ import (
 	"go.mau.fi/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/proto/waCommon"
-	"go.mau.fi/whatsmeow/proto/waConsumerApplication"
-	"go.mau.fi/whatsmeow/proto/waMsgApplication"
-	"go.mau.fi/whatsmeow/proto/waMsgTransport"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waCommon"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waConsumerApplication"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waMsgApplication"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waMsgTransport"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
 )
 
 // Number of sent messages to cache in memory for handling retry receipts.

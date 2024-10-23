@@ -1,8 +1,8 @@
 package waConsumerApplication
 
 import (
-	"go.mau.fi/whatsmeow/proto/armadilloutil"
-	"go.mau.fi/whatsmeow/proto/waMediaTransport"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/armadilloutil"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_gologia-soft/whatsmeow_mysql_go/proto/waMediaTransport"
 )
 
 type ConsumerApplication_Content_Content = isConsumerApplication_Content_Content

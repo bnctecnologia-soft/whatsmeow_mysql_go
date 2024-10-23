@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net/http"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
 )
 
 // Miscellaneous errors

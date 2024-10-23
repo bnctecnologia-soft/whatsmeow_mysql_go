@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.mau.fi/whatsmeow/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
 )
 
 // Attrs is a type alias for the attributes of an XML element (Node).

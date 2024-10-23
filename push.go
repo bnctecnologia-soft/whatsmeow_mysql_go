@@ -10,8 +10,8 @@ import (
 	"context"
 	"encoding/base64"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
 )
 
 type PushConfig interface {

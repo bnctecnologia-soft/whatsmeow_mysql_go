@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	armadillo "go.mau.fi/whatsmeow/proto"
-	"go.mau.fi/whatsmeow/proto/waArmadilloApplication"
-	"go.mau.fi/whatsmeow/proto/waConsumerApplication"
-	"go.mau.fi/whatsmeow/proto/waMsgApplication"
-	"go.mau.fi/whatsmeow/proto/waMsgTransport"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	armadillo "github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waArmadilloApplication"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waConsumerApplication"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waMsgApplication"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waMsgTransport"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
 )
 
 // QR is emitted after connecting when there's no session data in the device store.

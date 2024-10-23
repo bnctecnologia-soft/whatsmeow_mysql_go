@@ -11,17 +11,17 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/whatsmeow/proto/waCommon"
-	"go.mau.fi/whatsmeow/proto/waE2E"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waCommon"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waE2E"
 
 	"go.mau.fi/util/random"
 	"google.golang.org/protobuf/proto"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/gcmutil"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types/events"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/gcmutil"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/hkdfutil"
 )
 
 type MsgSecretType string

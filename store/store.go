@@ -13,10 +13,10 @@ import (
 
 	"github.com/google/uuid"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	waProto "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary/proto"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
+	waLog "github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/log"
 )
 
 type IdentityStore interface {

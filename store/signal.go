@@ -15,7 +15,7 @@ import (
 	"go.mau.fi/libsignal/state/record"
 	"go.mau.fi/libsignal/state/store"
 
-	"go.mau.fi/whatsmeow/util/keys"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
 )
 
 var SignalProtobufSerializer = serialize.NewProtoBufSerializer()

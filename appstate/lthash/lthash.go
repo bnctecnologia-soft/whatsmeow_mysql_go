@@ -13,7 +13,7 @@ package lthash
 import (
 	"encoding/binary"
 
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/hkdfutil"
 )
 
 type LTHash struct {

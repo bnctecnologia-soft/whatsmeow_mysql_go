@@ -20,10 +20,10 @@ import (
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/pbkdf2"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
-	"go.mau.fi/whatsmeow/util/keys"
+	waBinary "github.com/bnctecnologia-soft/whatsmeow_mysql_go/binary"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/types"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/hkdfutil"
+	"github.com/bnctecnologia-soft/whatsmeow_mysql_go/util/keys"
 )
 
 // PairClientType is the type of client to use with PairCode.

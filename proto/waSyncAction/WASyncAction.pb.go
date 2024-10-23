@@ -13,9 +13,9 @@ import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 
-	waChatLockSettings "go.mau.fi/whatsmeow/proto/waChatLockSettings"
-	waCommon "go.mau.fi/whatsmeow/proto/waCommon"
-	waDeviceCapabilities "go.mau.fi/whatsmeow/proto/waDeviceCapabilities"
+	waChatLockSettings "github.com/bnctecnologia-soft/whatsmeow_mysql_go/proto/waChatLockSettings"
+	waCommon "github.com/bnctecnologia-soft/whatsmeow_mysql_gologia-soft/whatsmeow_mysql_go/proto/waCommon"
+	waDeviceCapabilities "github.com/bnctecnologia-soft/whatsmeow_mysql_gologia-soft/whatsmeow_mysql_go/proto/waDeviceCapabilities"
 
 	_ "embed"
 )
